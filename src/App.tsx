@@ -5,16 +5,9 @@ import axios from 'axios';
 //user data api
 const apiUserData = "https://randomuser.me/api";  
  
-type User = {
-  name?: string;
-  email?:string;
-  location?:string;
-  picture?:string;
-   
-}
  
 function App() {
-  const [userData, setData]=useState<User[]>([]);
+  const [userData, setData]=useState([]);
 
   const getUserData = async ()=> {
     const {data} = await axios.get(apiUserData);
