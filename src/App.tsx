@@ -49,7 +49,7 @@ function App() {
 
      
     
-    <button className='bg-blue-500 mt-10 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded' onClick={getUserData}>Get other user </button>
+    <button className='bg-blue-500 mt-10 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded' onClick={getUserData}>Get another user</button>
 </section>
 
  
